@@ -188,6 +188,10 @@ a {
 }
 
 .projectImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   overflow: hidden;
   border-radius: 12px;
   background: #171b24;
@@ -252,10 +256,6 @@ a {
 @media (max-width: 800px) {
   .projectCard {
     grid-template-columns: 1fr;
-  }
-
-  .projectImage img {
-    min-height: 250px;
   }
 }
 
