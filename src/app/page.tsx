@@ -96,6 +96,50 @@ export default function Home() {
         </div>
       </div>
     </article>
+    <article className="projectCard">
+  <div className="projectImage">
+    <img
+      src="/projects/hatch-haven/lounge_demo.png"
+      alt="Hatch Haven pet-raising game"
+    />
+  </div>
+
+  <div className="projectContent">
+    <p className="projectNumber">02</p>
+
+    <h3>Hatch Haven</h3>
+
+    <p>
+      A cosy pet-raising idle/clicker game built in Godot 4,
+      featuring collectible pets, progression, autonomous behaviour,
+      passive income, offline earnings and persistent saves.
+    </p>
+
+    <div className="techList">
+      <span>Godot 4</span>
+      <span>GDScript</span>
+      <span>Game Development</span>
+    </div>
+
+    <div className="projectLinks">
+      <a
+        href="/projects/hatch-haven"
+        className="primaryButton"
+      >
+        View Project
+      </a>
+
+      <a
+        href="https://hatch-haven.vercel.app/"
+        className="secondaryButton"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Play Game
+      </a>
+    </div>
+  </div>
+</article>
   </div>
 </section>
 
