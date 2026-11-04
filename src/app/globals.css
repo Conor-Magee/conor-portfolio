@@ -188,20 +188,15 @@ a {
 }
 
 .projectImage {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  width: 100%;
   overflow: hidden;
-  border-radius: 12px;
-  background: #171b24;
+  border-radius: 8px;
 }
 
 .projectImage img {
-  display: block;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
+  display: block;
 }
 
 .projectContent {
@@ -597,4 +592,25 @@ a {
   .hero {
     padding-top: 50px;
   }
+}
+
+.threeSeatsContent {
+  justify-content: flex-start;
+  padding-top: 0px;
+}
+
+.threeSeatsContent .projectNumber {
+  margin-bottom: 25px;
+}
+
+.threeSeatsContent h3 {
+  margin-bottom: 28px;
+}
+
+.threeSeatsContent .techList {
+  margin-top: 35px;
+}
+
+.threeSeatsContent .projectLinks {
+  margin-top: 30px;
 }

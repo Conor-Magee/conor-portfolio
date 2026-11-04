@@ -19,7 +19,7 @@ export default function HatchHavenProject() {
         <div className="techList">
           <span>Godot 4</span>
           <span>GDScript</span>
-          <span>Game Development</span>
+          <span>Vercel</span>
         </div>
 
         <div className="projectLinks">

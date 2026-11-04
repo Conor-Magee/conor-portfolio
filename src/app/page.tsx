@@ -140,6 +140,53 @@ export default function Home() {
     </div>
   </div>
 </article>
+
+<article className="projectCard">
+  <div className="projectImage">
+    <img
+      src="/projects/three-seats/ts-demo.png"
+      alt="Three Seats game screenshot"
+    />
+  </div>
+
+  <div className="projectContent threeSeatsContent">
+    <p className="projectNumber">03</p>
+
+    <h3>Three Seats</h3>
+
+    <p>
+      A web-based application featuring a Supabase-backed
+      database, built as a practical project exploring
+      full-stack development, application state
+      management and persistent data.
+    </p>
+
+    <div className="techList">
+      <span>Supabase</span>
+      <span>Database Integration</span>
+      <span>Web Development</span>
+    </div>
+
+    <div className="projectLinks">
+      <a
+        href="/projects/three-seats"
+        className="primaryButton"
+      >
+        View Project
+      </a>
+
+      <a
+        href="https://three-seats.vercel.app/"
+        className="secondaryButton"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Launch App
+      </a>
+    </div>
+  </div>
+</article>
+
   </div>
 </section>
 
