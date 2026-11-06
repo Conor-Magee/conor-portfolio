@@ -26,7 +26,7 @@ export default function ThreeSeatsProject() {
 
         <div className="projectLinks">
           <a
-            href="YOUR_THREE_SEATS_URL"
+            href="https://three-seats.vercel.app/"
             className="primaryButton"
             target="_blank"
             rel="noreferrer"
@@ -41,7 +41,7 @@ export default function ThreeSeatsProject() {
 
         <div className="caseStudyMedia">
           <img
-            src="/projects/three-seats/ts-demo.png"
+            src="/projects/three-seats/three-seats-roulette.gif"
             alt="Three Seats movie-night web application"
           />
         </div>

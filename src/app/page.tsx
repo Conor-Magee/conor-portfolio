@@ -235,6 +235,107 @@ export default function Home() {
   </div>
 </section>
 
+
+<section className="beyondSection" aria-labelledby="beyond-heading">
+  <div className="sectionHeading">
+    <p className="eyebrow">A LITTLE MORE ABOUT ME</p>
+    <h2 id="beyond-heading">Beyond the Code</h2>
+    <p>
+      Outside of software development, I enjoy competition,
+      exploring new places and spending time with the people
+      who matter most.
+    </p>
+  </div>
+
+  <div className="beyondGrid">
+    
+<article className="interestCard interestFeatured">
+  <div className="interestHeader">
+    <span className="interestIcon" aria-hidden="true">🏆</span>
+    <h3>Competitive Gaming &amp; Leadership</h3>
+  </div>
+
+  <div className="achievementStats">
+    <div>
+      <strong>#70</strong>
+      <span>Peak World Rank</span>
+    </div>
+
+    <div>
+      <strong>Top 0.35%</strong>
+      <span>Estimated Worldwide</span>
+    </div>
+
+    <div>
+      <strong>Top 200</strong>
+      <span>Multiple Years</span>
+    </div>
+  </div>
+
+  <p>
+    I competed at an elite international level in World of
+    Warcraft&apos;s most challenging team-based content,
+    achieving a peak ranking of 70th worldwide among an
+    estimated 20,000 competitive guilds.
+  </p>
+
+  <p>
+    Over several years, I consistently competed within the
+    world&apos;s Top 200, taking on various leadership
+    responsibilities, analysing detailed performance data
+    to identify areas for improvement, and contributing to
+    the development and execution of complex team strategies.
+  </p>
+
+  <p>
+    This experience strengthened my leadership, analytical
+    problem-solving, strategic planning and communication
+    skills, while demonstrating the dedication and consistency
+    required to perform at a high level.
+  </p>
+
+  <div className="interestTags">
+    <span>Leadership</span>
+    <span>Performance Analysis</span>
+    <span>Strategic Planning</span>
+    <span>Teamwork</span>
+  </div>
+</article>
+
+
+    <article className="interestCard">
+      <div className="interestHeader">
+        <span className="interestIcon" aria-hidden="true">⚽</span>
+        <h3>Sport &amp; Competition</h3>
+      </div>
+
+      <p>
+        I enjoy following sport and the excitement that comes
+        with competition. Whether it&apos;s a big sporting
+        event or following the progress of a team, I appreciate
+        the determination, teamwork and unpredictability
+        that make sport so enjoyable.
+      </p>
+    </article>
+
+    <article className="interestCard">
+      <div className="interestHeader">
+        <span className="interestIcon" aria-hidden="true">🧭</span>
+        <h3>Family &amp; Adventures</h3>
+      </div>
+
+      <p>
+        I love spending time with my girlfriend, our son
+        and our dog. We enjoy exploring new places, taking
+        trips and finding fun activities to experience
+        together, whether that&apos;s a holiday abroad,
+        a day out or simply getting outdoors.
+      </p>
+    </article>
+  </div>
+</section>
+
+
 <section className="experienceSection" id="experience">
   <div className="sectionHeading">
     <p className="eyebrow">EXPERIENCE</p>

@@ -54,17 +54,21 @@ a {
   color: #ffffff;
 }
 
+
 .hero {
   width: min(1200px, 90%);
-  min-height: calc(100vh - 90px);
   margin: 0 auto;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
 
+  min-height: auto;
+
+  padding-top: 90px;
   padding-bottom: 100px;
 }
+
 
 .eyebrow {
   color: #4f8cff;
@@ -613,4 +617,170 @@ a {
 
 .threeSeatsContent .projectLinks {
   margin-top: 30px;
+}
+
+
+/* BEYOND THE CODE */
+
+
+.beyondSection {
+  max-width: 1200px;
+  width: calc(100% - 48px);
+  margin: 0 auto;
+  padding: 100px 0;
+  border-top: 1px solid #1e2430;
+}
+
+
+.beyondGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.interestCard {
+  background: #10131b;
+  border: 1px solid #293244;
+  border-radius: 14px;
+  padding: 28px;
+  transition: border-color 0.2s ease,
+              transform 0.2s ease;
+}
+
+.interestCard:hover {
+  border-color: #5886ff;
+  transform: translateY(-3px);
+}
+
+.interestFeatured {
+  grid-column: 1 / -1;
+}
+
+.interestHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.interestIcon {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.interestHeader h3 {
+  font-size: 21px;
+  font-weight: 700;
+  color: #f5f6fa;
+  margin: 0;
+}
+
+.interestCard p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #aebbd5;
+  margin: 0 0 16px;
+}
+
+.interestCard p:last-child {
+  margin-bottom: 0;
+}
+
+/* WORLD RANK STATS */
+
+.achievementStats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.achievementStats > div {
+  background: #171c29;
+  border: 1px solid #293244;
+  border-radius: 10px;
+  padding: 20px 12px;
+  text-align: center;
+}
+
+.achievementStats strong {
+  display: block;
+  color: #5886ff;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.achievementStats span {
+  display: block;
+  color: #aebbd5;
+  font-size: 12px;
+}
+
+/* TRANSFERABLE SKILLS */
+
+.interestTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.interestTags span {
+  border: 1px solid #34415b;
+  color: #c6d5f7;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 11px;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .beyondSection {
+    padding: 70px 0;
+  }
+
+  .beyondGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .interestFeatured {
+    grid-column: auto;
+  }
+
+  .interestCard {
+    padding: 22px;
+  }
+
+  .achievementStats {
+    gap: 8px;
+  }
+
+  .achievementStats > div {
+    padding: 14px 6px;
+  }
+
+  .achievementStats strong {
+    font-size: 20px;
+  }
+
+  .achievementStats span {
+    font-size: 10px;
+  }
+
+  .interestHeader h3 {
+    font-size: 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .interestCard {
+    transition: none;
+  }
+
+  .interestCard:hover {
+    transform: none;
+  }
 }
